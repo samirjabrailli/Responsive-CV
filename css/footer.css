@@ -1,0 +1,114 @@
+.footer{
+    background-color: #48C9DE;
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    min-height: 65vh;
+    height: 65%;
+}
+
+.footer .footer-title h3{
+    color: #FDEEC7;
+    margin: 10px;
+}
+
+.footer .footer-description ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer .footer-description ul li{
+    margin-top: 10px;
+}
+
+.footer .footer-description ul li a{
+    margin: 10px;
+    font-size: 25px;
+    color: #FDEEC7;
+}
+
+.footer-description .social-media{
+    background-color: #3298C0;
+    margin: 10px;
+    min-height: 10vh;
+    height: 10%;
+}
+
+@media (max-width: 768px){
+    .footer{
+        background-color: #48C9DE;
+        display: flex;
+        gap: 10px;
+        justify-content: space-around;
+        min-height: 65vh;
+        height: 65%;
+        flex-direction: row;
+    }
+    
+    .footer .footer-title h3{
+        color: #FDEEC7;
+        margin: 10px;
+    }
+    
+    .footer .footer-description ul{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .footer .footer-description ul li{
+        margin-top: 10px;
+    }
+    
+    .footer .footer-description ul li a{
+        margin: 10px;
+        font-size: 25px;
+        color: #FDEEC7;
+    }
+    
+    .footer-description .social-media{
+        background-color: #3298C0;
+        margin: 10px;
+        min-height: 15vh;
+        height: 15%;
+    }
+}
+
+@media (max-width: 576px){
+    .footer{
+        background-color: #48C9DE;
+        display: flex;
+        gap: 10px;
+        justify-content: space-around;
+        min-height: 65vh;
+    height: 65%;
+        flex-direction: column;
+    }
+    
+    .footer .footer-title h3{
+        color: #FDEEC7;
+        margin: 10px;
+    }
+    
+    .footer .footer-description ul{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .footer .footer-description ul li{
+        margin-top: 10px;
+    }
+    
+    .footer .footer-description ul li a{
+        margin: 10px;
+        font-size: 25px;
+        color: #FDEEC7;
+    }
+    
+    .footer-description .social-media{
+        background-color: #3298C0;
+        margin: 10px;
+        min-height: 10vh;
+        height: 10%;
+        width: 40vh;
+    }
+}

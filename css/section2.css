@@ -1,0 +1,77 @@
+.sc-2{
+    background-color: #48C9DE;
+    min-height: 45vh;
+    height: 45%;
+    display: flex;
+   gap: 25px;
+}
+
+.sc-2 .skills-title h1{
+    color: #FDEEC7;
+    font-weight: 700;
+   padding: 10px;
+   text-align: center;
+}
+
+.sc-2 .skills-description ul li{
+    list-style: disc;
+    margin: 10px;
+    color: #FDEEC7;
+}
+
+@media (max-width: 768px){
+    .sc-2{
+        background-color: #48C9DE;
+        min-height: 45vh;
+        height: 45%;
+        display: flex;
+       gap: 25px;
+       justify-content: space-around;
+       flex-direction: row;
+    }
+    
+    .sc-2 .skills-title h1{
+        color: #FDEEC7;
+        font-weight: 700;
+       padding: 10px;
+       text-align: center;
+    }
+    
+    .sc-2 .skills-description ul li{
+        list-style: disc;
+        margin: 10px;
+        color: #FDEEC7;
+        text-align: justify;
+    }
+}
+
+@media (max-width: 576px){
+    .sc-2{
+        background-color: #48C9DE;
+        min-height: 45vh;
+        height: 45%;
+        display: flex;
+       gap: 25px;
+       flex-direction:column;
+     
+    }
+    
+    .sc-2 .skills-title h1{
+        color: #FDEEC7;
+        font-weight: 700;
+       padding: 10px;
+    }
+    
+    .sc-2 .skills-description ul li{
+        list-style: disc;
+        margin-left: 45%;
+        color: #FDEEC7;
+        text-align: justify;
+    }
+
+    .sc-2 .skills-description .hr{
+        width: 5px;
+        color: red;
+       
+    }
+}
